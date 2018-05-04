@@ -1,3 +1,3 @@
-# next
+# mobx-next
 
-Mobx ES6 types
+WIP: ES6 observable data types with help of mobx atoms.
