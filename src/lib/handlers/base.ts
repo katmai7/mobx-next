@@ -86,7 +86,7 @@ export function apply(target, value, args) {
     }
   } else {
     // for non builtin data types, run method in mobx action
-    res = runInAction(Reflect.apply(target, value, args));
+    res = runInAction(() => Reflect.apply(target, value, args));
   }
 
   return res;
