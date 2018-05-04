@@ -1,1 +1,3 @@
-export * from './lib/number';
+import observable from './lib/observable';
+
+export { computed, reaction, autorun, observable } from 'mobx';
